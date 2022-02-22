@@ -8,3 +8,5 @@ miRNA detector pipelet is developed using Apache UIMA framework within a Java ap
 For example, consider the below given file as the input file for the miRNA detector application.
 
 [Input file to mirna-detector](https://github.com/anjani-dhrangadhariya/mirna-detector/blob/main/doc/figure1.png)
+
+<img src="https://github.com/anjani-dhrangadhariya/mirna-detector/blob/main/doc/figure1.png" width="128"/>
