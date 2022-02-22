@@ -9,4 +9,7 @@ For example, consider the below given file as the input file for the miRNA detec
 
 [Input file to mirna-detector](https://github.com/anjani-dhrangadhariya/mirna-detector/blob/main/doc/figure1.png)
 
-<img src="https://github.com/anjani-dhrangadhariya/mirna-detector/blob/main/doc/figure1.png" width="128"/>
+<img src="https://github.com/anjani-dhrangadhariya/mirna-detector/blob/main/doc/figure1.png" width="528"/>
+
+
+<img src="https://github.com/anjani-dhrangadhariya/mirna-detector/blob/main/doc/figure2.png" width="528"/>
