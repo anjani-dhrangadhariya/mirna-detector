@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:provenance="http:///de/fraunhofer/scai/bio/extraction/types/meta/provenance.ecore" xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:meta2="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/meta.ecore" xmlns:meta="http:///de/fraunhofer/scai/bio/extraction/types/meta.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:container="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/container.ecore" xmlns:text="http:///de/fraunhofer/scai/bio/extraction/types/text.ecore" xmlns:structure="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/structure.ecore" xmlns:image="http:///de/fraunhofer/scai/bio/extraction/types/image.ecore" xmlns:documentelement="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <cas:Sofa xmi:id="43" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="19498445&#9;miR-15a and miR-16-1 in cancer: discovery, function and future perspectives.&#9;&#9;MicroRNAs (miRNAs) encoded by the miR-15/16 cluster are known to act as tumor suppressors. Expression of these miRNAs inhibits cell proliferation, promotes apoptosis of cancer cells, and suppresses tumorigenicity both in vitro and in vivo. miR-15a and miR-16-1 function by targeting multiple oncogenes, including BCL2, MCL1, CCND1, and WNT3A. Down-regulation of these miRNAs has been reported in chronic lymphocytic lymphoma (CLL), pituitary adenomas, and prostate carcinoma. This review summarizes the discovery, functions, and clinical relevance of these miRNAs in cancer, particularly CLL.&#9;&#9;&#9;&#10;"/>
+    <meta:Person xmi:id="8" surname="adhrangadhariya"/>
+    <provenance:AgentProvenance xmi:id="13" user="8"/>
+    <provenance:ActivityProvenance xmi:id="1" componentId="de.fraunhofer.scai.bio.MiRNA2XCAS.reader.MiRNA2XCASReader" startedAtTime="32" endedAtTime="67" version="6.0" parameters="15 19 23" wasAssociatedWith="13"/>
+    <meta:Parameter xmi:id="15" key="Example" value="example" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="19" key="inputString" value="train_201" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="23" key="documentCollectionName" value="7d789aff-dc58-47b1-ad0e-392ceb43965c" wasGeneratedBy="1"/>
+    <tcas:DocumentAnnotation xmi:id="50" sofa="43" begin="0" end="683" language="x-unspecified"/>
+    <provenance:EntityProvenance xmi:id="55" documentID="4b3f4925663efab0f5f10bdf0d9b3e24d8cf9a64b7b24b9d08d6b7edd139aa9d" userSuppliedID="19498445" wasDerivedFrom="file:/home/adhrangadhariya/miRNA/MiRNA2XCAS_old/train_201/19498445.txt" workflowProvenance="1" wasGeneratedBy="1" wasAttributedTo="13" documentCollectionName="7d789aff-dc58-47b1-ad0e-392ceb43965c" documentURI="file:/home/adhrangadhariya/miRNA/MiRNA2XCAS_old/train_201/19498445.txt"/>
+    <meta:DateTime xmi:id="67" day="15" month="5" year="2015" hour="10" minute="34" second="23"/>
+    <meta:DateTime xmi:id="32" day="15" month="5" year="2015" hour="10" minute="34" second="23"/>
+    <cas:View sofa="43" members="8 13 1 15 19 23 50 55"/>
+</xmi:XMI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:provenance="http:///de/fraunhofer/scai/bio/extraction/types/meta/provenance.ecore" xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:meta2="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/meta.ecore" xmlns:meta="http:///de/fraunhofer/scai/bio/extraction/types/meta.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:container="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/container.ecore" xmlns:text="http:///de/fraunhofer/scai/bio/extraction/types/text.ecore" xmlns:structure="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/structure.ecore" xmlns:image="http:///de/fraunhofer/scai/bio/extraction/types/image.ecore" xmlns:documentelement="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <cas:Sofa xmi:id="43" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="From this paragraph fetch the miRNA entities like miR-128, miR-181a, and miR-181c. Also fetch miR-29a, -29b-1, and -9. Fetch hsa-mir-520c, pre-miRNA-146a, let-7a. Capture also previously uncaptured terms like miR-20a family, miR-15/107 group, miR-452 cluster, miR-29 paralogs.&#10;"/>
+    <meta:Person xmi:id="8" surname="adhrangadhariya"/>
+    <provenance:AgentProvenance xmi:id="13" user="8"/>
+    <provenance:ActivityProvenance xmi:id="1" componentId="de.fraunhofer.scai.bio.MiRNA2XCAS.reader.MiRNA2XCASReader" startedAtTime="32" endedAtTime="67" version="6.0" parameters="15 19 23" wasAssociatedWith="13"/>
+    <meta:Parameter xmi:id="15" key="Example" value="example" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="19" key="inputString" value="pattern3" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="23" key="documentCollectionName" value="92376003-8d68-46b9-a325-9acde879781f" wasGeneratedBy="1"/>
+    <tcas:DocumentAnnotation xmi:id="50" sofa="43" begin="0" end="277" language="x-unspecified"/>
+    <provenance:EntityProvenance xmi:id="55" documentID="a5846189919cca8cfa30303a7ddbd0e2f85c7e344f7d0766b52e7ee28d277318" userSuppliedID="ExampleDataFile" wasDerivedFrom="file:/home/adhrangadhariya/miRNA/MiRNA2XCAS_old/pattern3/ExampleDataFile" workflowProvenance="1" wasGeneratedBy="1" wasAttributedTo="13" documentCollectionName="92376003-8d68-46b9-a325-9acde879781f" documentURI="file:/home/adhrangadhariya/miRNA/MiRNA2XCAS_old/pattern3/ExampleDataFile"/>
+    <meta:DateTime xmi:id="67" day="31" month="6" year="2015" hour="13" minute="57" second="30"/>
+    <meta:DateTime xmi:id="32" day="31" month="6" year="2015" hour="13" minute="57" second="30"/>
+    <cas:View sofa="43" members="8 13 1 15 19 23 50 55"/>
+</xmi:XMI>

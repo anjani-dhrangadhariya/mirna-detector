@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:provenance="http:///de/fraunhofer/scai/bio/extraction/types/meta/provenance.ecore" xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:meta2="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/meta.ecore" xmlns:meta="http:///de/fraunhofer/scai/bio/extraction/types/meta.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:container="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/container.ecore" xmlns:text="http:///de/fraunhofer/scai/bio/extraction/types/text.ecore" xmlns:structure="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/structure.ecore" xmlns:image="http:///de/fraunhofer/scai/bio/extraction/types/image.ecore" xmlns:documentelement="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <cas:Sofa xmi:id="38" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="From this paragraph fetch the miRNA entities like miR-128, miR-181a, and miR-181c. Also fetch miR-29a, -29b-1, and -9. Fetch hsa-mir-520c, pre-miRNA-146a, let-7a. Capture also previously uncaptured terms like miR-20a family, miR-15/107 group, miR-452 cluster, miR-29 paralogs.&#10;"/>
+    <cas:Sofa xmi:id="134" sofaNum="2" sofaID="DocumentView" mimeType="text" sofaString="From this paragraph fetch the miRNA entities like miR-128, miR-181a, and miR-181c. Also fetch miR-29a, -29b-1, and -9. Fetch hsa-mir-520c, pre-miRNA-146a, let-7a. Capture also previously uncaptured terms like miR-20a family, miR-15/107 group, miR-452 cluster, miR-29 paralogs.&#10;"/>
+    <meta:Person xmi:id="8" surname="adhrangadhariya"/>
+    <meta:Person xmi:id="45" surname="adhrangadhariya"/>
+    <provenance:AgentProvenance xmi:id="13" user="8"/>
+    <provenance:AgentProvenance xmi:id="50" user="45"/>
+    <provenance:ActivityProvenance xmi:id="1" componentId="de.fraunhofer.scai.bio.uima.core.reader.XCasReader" startedAtTime="27" endedAtTime="107" version="6.0" parameters="15 19" wasAssociatedWith="13"/>
+    <provenance:ActivityProvenance xmi:id="52" componentId="de.fraunhofer.scai.bio.MiRNA2XCAS.reader.MiRNA2XCASReader" startedAtTime="100" endedAtTime="93" version="6.0" parameters="64 68 72" wasAssociatedWith="50"/>
+    <provenance:ActivityProvenance xmi:id="118" componentId="de.fraunhofer.scai.bio.uima.mirnadetector.annotator.MiRNADetector" startedAtTime="127" endedAtTime="686" version="6.0" parameters="" wasAssociatedWith="13"/>
+    <meta:Parameter xmi:id="15" key="inputString" value="data" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="19" key="documentCollectionName" value="NONE_SINCE_XCAS_READER_DOES_NOT_SET_ANY_PROP" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="64" key="Example" value="example" wasGeneratedBy="52"/>
+    <meta:Parameter xmi:id="68" key="inputString" value="pattern3" wasGeneratedBy="52"/>
+    <meta:Parameter xmi:id="72" key="documentCollectionName" value="92376003-8d68-46b9-a325-9acde879781f" wasGeneratedBy="52"/>
+    <tcas:DocumentAnnotation xmi:id="76" sofa="38" begin="0" end="277" language="x-unspecified"/>
+    <provenance:EntityProvenance xmi:id="81" documentID="a5846189919cca8cfa30303a7ddbd0e2f85c7e344f7d0766b52e7ee28d277318" userSuppliedID="ExampleDataFile" wasDerivedFrom="file:/home/adhrangadhariya/miRNA/MiRNA2XCAS_old/pattern3/ExampleDataFile" workflowProvenance="52 1 118" wasGeneratedBy="52" wasAttributedTo="50" documentCollectionName="92376003-8d68-46b9-a325-9acde879781f" documentURI="file:/home/adhrangadhariya/miRNA/MiRNADetector/data/ExampleDataFile.xmi"/>
+    <tcas:DocumentAnnotation xmi:id="141" sofa="134" begin="0" end="277" language="x-unspecified"/>
+    <text:NamedEntity xmi:id="149" sofa="134" begin="30" end="35" wasGeneratedBy="118" confidence="146"/>
+    <text:NamedEntity xmi:id="185" sofa="134" begin="139" end="148" wasGeneratedBy="118" confidence="182"/>
+    <text:NamedEntity xmi:id="221" sofa="134" begin="155" end="161" wasGeneratedBy="118" confidence="218"/>
+    <text:NamedEntity xmi:id="237" sofa="134" begin="50" end="57" wasGeneratedBy="118" confidence="234"/>
+    <text:NamedEntity xmi:id="253" sofa="134" begin="59" end="67" wasGeneratedBy="118" confidence="250"/>
+    <text:NamedEntity xmi:id="269" sofa="134" begin="73" end="81" wasGeneratedBy="118" confidence="266"/>
+    <text:NamedEntity xmi:id="285" sofa="134" begin="94" end="101" wasGeneratedBy="118" confidence="282"/>
+    <text:NamedEntity xmi:id="301" sofa="134" begin="125" end="137" wasGeneratedBy="118" confidence="298"/>
+    <text:NamedEntity xmi:id="317" sofa="134" begin="139" end="153" wasGeneratedBy="118" confidence="314"/>
+    <text:NamedEntity xmi:id="333" sofa="134" begin="209" end="223" wasGeneratedBy="118" confidence="330"/>
+    <text:NamedEntity xmi:id="349" sofa="134" begin="225" end="241" wasGeneratedBy="118" confidence="346"/>
+    <text:NamedEntity xmi:id="365" sofa="134" begin="243" end="258" wasGeneratedBy="118" confidence="362"/>
+    <text:NamedEntity xmi:id="381" sofa="134" begin="260" end="275" wasGeneratedBy="118" confidence="378"/>
+    <text:NamedEntity xmi:id="397" sofa="134" begin="103" end="109" wasGeneratedBy="118" confidence="394"/>
+    <text:NamedEntity xmi:id="413" sofa="134" begin="115" end="117" wasGeneratedBy="118" confidence="410"/>
+    <text:RegEx xmi:id="155" sofa="134" begin="30" end="35" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([sS][yY][nN][tT][hH][eE][tT][iI][cC] )|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)|[mM][aA][tT][uU][rR][eE]\s))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?)(\s[gG][rR][oO][uU][pP][sS]?|\s[cC][lL][uU][sS][tT][eE][rR][sS]?|\s[fF][aA][mM][iI][lL][yY]|\s[pP][aA][rR][aA][lL][oO][gG][sS])?|[oO][nN][cC][oO][mM][iI][rR][sS]?|[aA][nN][gG][iI][oO][mM][iI][rR][sS]?)"/>
+    <text:RegEx xmi:id="191" sofa="134" begin="139" end="148" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([sS][yY][nN][tT][hH][eE][tT][iI][cC] )|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)|[mM][aA][tT][uU][rR][eE]\s))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?)(\s[gG][rR][oO][uU][pP][sS]?|\s[cC][lL][uU][sS][tT][eE][rR][sS]?|\s[fF][aA][mM][iI][lL][yY]|\s[pP][aA][rR][aA][lL][oO][gG][sS])?|[oO][nN][cC][oO][mM][iI][rR][sS]?|[aA][nN][gG][iI][oO][mM][iI][rR][sS]?)"/>
+    <text:RegEx xmi:id="227" sofa="134" begin="155" end="161" wasGeneratedBy="118" pattern="([hH][sS][aA]\\-)?(([lL][iI][nN]([ \\-])?[4]+[a-z]?)|([lL][eE][tT]([ \\-])?[7]+[a-z]?))(\s[fF][aA][mM][iI][lL][yY])?"/>
+    <text:RegEx xmi:id="243" sofa="134" begin="50" end="57" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="259" sofa="134" begin="59" end="67" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="275" sofa="134" begin="73" end="81" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="291" sofa="134" begin="94" end="101" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="307" sofa="134" begin="125" end="137" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="323" sofa="134" begin="139" end="153" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="339" sofa="134" begin="209" end="223" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="355" sofa="134" begin="225" end="241" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="371" sofa="134" begin="243" end="258" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="387" sofa="134" begin="260" end="275" wasGeneratedBy="118" pattern="(([cC][lL][uU][sS][tT][eE][rR][sS]?|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS])\s)?([hH][sS][aA]\-|[cC][eE][lL]\-|[pP][rR][eEiI]\-)?\b(([aA][nN][tT][aA][gG][oO])?(\()?[mM][iI]([cC][rR][oO])?[rR]([nN][aA]?)?(\))?)(\-|)(\d+[a-zA-Z]*((\-|)(5p|3p|a\s|as\s|\d+))?)((/|(\s)?(~|〜|～|〜|∼)(\s)?|\-|\s[aA][pP][pP][rR][oO][xX][iI][mM][aA][tT][eE][lL][yY]\\s)(\d+[a-zA-Z]?((\-|)(5p|3p|as\s|a\s|\d+))?|\w\b((\-|)(5p|3p|as\s|a\s|\d+))?))*(\s([cC][lL][uU][sS][tT][eE][rR]|[gG][rR][oO][uU][pP]|[fF][aA][mM][iI][lL][yY]|[pP][aA][rR][aA][lL][oO][gG][sS]|[aA][nN][tT][aA][gG][oO][mM][iI][rR]))?"/>
+    <text:RegEx xmi:id="403" sofa="134" begin="103" end="109" wasGeneratedBy="118" pattern="((miR)?\-?)\d+\w*(\-\d*\w*)*"/>
+    <text:RegEx xmi:id="419" sofa="134" begin="115" end="117" wasGeneratedBy="118" pattern="((miR)?\-?)\d+\w*(\-\d*\w*)*"/>
+    <meta:Label xmi:id="162" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="198" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="426" languageTag="EN" value="hsa-mir-128"/>
+    <meta:Label xmi:id="446" languageTag="EN" value="hsa-mir-181a"/>
+    <meta:Label xmi:id="466" languageTag="EN" value="hsa-mir-181c"/>
+    <meta:Label xmi:id="486" languageTag="EN" value="hsa-mir-29a"/>
+    <meta:Label xmi:id="506" languageTag="EN" value="hsa-mir-29b-1"/>
+    <meta:Label xmi:id="526" languageTag="EN" value="hsa-mir-9"/>
+    <meta:Label xmi:id="546" languageTag="EN" value="hsa-mir-520c"/>
+    <meta:Label xmi:id="566" languageTag="EN" value="hsa-mir-146a"/>
+    <meta:Label xmi:id="586" languageTag="EN" value="hsa-let-7a"/>
+    <meta:Label xmi:id="606" languageTag="EN" value="mir-20a"/>
+    <meta:Label xmi:id="626" languageTag="EN" value="miR-15/107 group"/>
+    <meta:Label xmi:id="646" languageTag="EN" value="miR-452 cluster"/>
+    <meta:Label xmi:id="666" languageTag="EN" value="miR-29 paralogs"/>
+    <meta:Concept xmi:id="165" prefLabel="162" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="201" prefLabel="198" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="429" prefLabel="426" identifier="MIMAT0000424" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000424"/>
+    <meta:Concept xmi:id="449" prefLabel="446" identifier="MIMAT0000256" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000256"/>
+    <meta:Concept xmi:id="469" prefLabel="466" identifier="MIMAT0000258" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000258"/>
+    <meta:Concept xmi:id="489" prefLabel="486" identifier="MIMAT0000086" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000086"/>
+    <meta:Concept xmi:id="509" prefLabel="506" identifier="MI0000107" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000107"/>
+    <meta:Concept xmi:id="529" prefLabel="526" identifier="MIMAT0000441" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000441"/>
+    <meta:Concept xmi:id="549" prefLabel="546" identifier="MIMAT0002846" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0002846"/>
+    <meta:Concept xmi:id="569" prefLabel="566" identifier="MIMAT0000449" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000449"/>
+    <meta:Concept xmi:id="589" prefLabel="586" identifier="MIMAT0000062" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000062"/>
+    <meta:Concept xmi:id="609" prefLabel="606"/>
+    <meta:Concept xmi:id="629" prefLabel="626" identifier="mirna_group"/>
+    <meta:Concept xmi:id="649" prefLabel="646" identifier="mirna_cluster"/>
+    <meta:Concept xmi:id="669" prefLabel="666" identifier="mirna_paralog"/>
+    <text:NormalizedNamedEntity xmi:id="174" sofa="134" begin="30" end="35" wasGeneratedBy="118" confidence="146" concept="165"/>
+    <text:NormalizedNamedEntity xmi:id="210" sofa="134" begin="139" end="148" wasGeneratedBy="118" confidence="182" concept="201"/>
+    <text:NormalizedNamedEntity xmi:id="435" sofa="134" begin="50" end="57" wasGeneratedBy="118" confidence="443" concept="429"/>
+    <text:NormalizedNamedEntity xmi:id="455" sofa="134" begin="59" end="67" wasGeneratedBy="118" confidence="463" concept="449"/>
+    <text:NormalizedNamedEntity xmi:id="475" sofa="134" begin="73" end="81" wasGeneratedBy="118" confidence="483" concept="469"/>
+    <text:NormalizedNamedEntity xmi:id="495" sofa="134" begin="94" end="101" wasGeneratedBy="118" confidence="503" concept="489"/>
+    <text:NormalizedNamedEntity xmi:id="515" sofa="134" begin="103" end="109" wasGeneratedBy="118" confidence="523" concept="509"/>
+    <text:NormalizedNamedEntity xmi:id="535" sofa="134" begin="115" end="117" wasGeneratedBy="118" confidence="543" concept="529"/>
+    <text:NormalizedNamedEntity xmi:id="555" sofa="134" begin="125" end="137" wasGeneratedBy="118" confidence="563" concept="549"/>
+    <text:NormalizedNamedEntity xmi:id="575" sofa="134" begin="139" end="153" wasGeneratedBy="118" confidence="583" concept="569"/>
+    <text:NormalizedNamedEntity xmi:id="595" sofa="134" begin="155" end="161" wasGeneratedBy="118" confidence="603" concept="589"/>
+    <text:NormalizedNamedEntity xmi:id="615" sofa="134" begin="209" end="223" wasGeneratedBy="118" confidence="623" concept="609"/>
+    <text:NormalizedNamedEntity xmi:id="635" sofa="134" begin="225" end="241" wasGeneratedBy="118" confidence="643" concept="629"/>
+    <text:NormalizedNamedEntity xmi:id="655" sofa="134" begin="243" end="258" wasGeneratedBy="118" confidence="663" concept="649"/>
+    <text:NormalizedNamedEntity xmi:id="675" sofa="134" begin="260" end="275" wasGeneratedBy="118" confidence="683" concept="669"/>
+    <meta:Confidence xmi:id="683" Value="1.0"/>
+    <meta:Confidence xmi:id="663" Value="1.0"/>
+    <meta:Confidence xmi:id="643" Value="1.0"/>
+    <meta:Confidence xmi:id="623" Value="1.0"/>
+    <meta:Confidence xmi:id="603" Value="1.0"/>
+    <meta:Confidence xmi:id="583" Value="1.0"/>
+    <meta:Confidence xmi:id="563" Value="1.0"/>
+    <meta:Confidence xmi:id="543" Value="1.0"/>
+    <meta:Confidence xmi:id="523" Value="1.0"/>
+    <meta:Confidence xmi:id="503" Value="1.0"/>
+    <meta:Confidence xmi:id="483" Value="1.0"/>
+    <meta:Confidence xmi:id="463" Value="1.0"/>
+    <meta:Confidence xmi:id="443" Value="1.0"/>
+    <meta:Confidence xmi:id="410" Value="1.0"/>
+    <meta:Confidence xmi:id="394" Value="1.0"/>
+    <meta:Confidence xmi:id="378" Value="1.0"/>
+    <meta:Confidence xmi:id="362" Value="1.0"/>
+    <meta:Confidence xmi:id="346" Value="1.0"/>
+    <meta:Confidence xmi:id="330" Value="1.0"/>
+    <meta:Confidence xmi:id="314" Value="1.0"/>
+    <meta:Confidence xmi:id="298" Value="1.0"/>
+    <meta:Confidence xmi:id="282" Value="1.0"/>
+    <meta:Confidence xmi:id="266" Value="1.0"/>
+    <meta:Confidence xmi:id="250" Value="1.0"/>
+    <meta:Confidence xmi:id="234" Value="1.0"/>
+    <meta:Confidence xmi:id="218" Value="1.0"/>
+    <meta:Confidence xmi:id="182" Value="1.0"/>
+    <meta:Confidence xmi:id="146" Value="1.0"/>
+    <meta:DateTime xmi:id="686" day="5" month="7" year="2015" hour="16" minute="12" second="53"/>
+    <meta:DateTime xmi:id="127" day="5" month="7" year="2015" hour="16" minute="12" second="53"/>
+    <meta:DateTime xmi:id="93" day="31" month="6" year="2015" hour="13" minute="57" second="30"/>
+    <meta:DateTime xmi:id="100" day="31" month="6" year="2015" hour="13" minute="57" second="30"/>
+    <meta:DateTime xmi:id="107" day="5" month="7" year="2015" hour="16" minute="12" second="52"/>
+    <meta:DateTime xmi:id="27" day="5" month="7" year="2015" hour="16" minute="12" second="52"/>
+    <cas:View sofa="38" members="8 45 13 50 1 52 118 15 19 64 68 72 76 81"/>
+    <cas:View sofa="134" members="141 149 185 221 237 253 269 285 301 317 333 349 365 381 397 413 155 191 227 243 259 275 291 307 323 339 355 371 387 403 419 162 198 426 446 466 486 506 526 546 566 586 606 626 646 666 165 201 429 449 469 489 509 529 549 569 589 609 629 649 669 174 210 435 455 475 495 515 535 555 575 595 615 635 655 675"/>
+</xmi:XMI>

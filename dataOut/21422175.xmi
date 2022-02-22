@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:provenance="http:///de/fraunhofer/scai/bio/extraction/types/meta/provenance.ecore" xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:meta2="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/meta.ecore" xmlns:meta="http:///de/fraunhofer/scai/bio/extraction/types/meta.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:container="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/container.ecore" xmlns:text="http:///de/fraunhofer/scai/bio/extraction/types/text.ecore" xmlns:structure="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/structure.ecore" xmlns:image="http:///de/fraunhofer/scai/bio/extraction/types/image.ecore" xmlns:documentelement="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <cas:Sofa xmi:id="38" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="21422175&#9;Differential MicroRNA Expression in Experimental Cerebral and Noncerebral Malaria.&#9;&#9;MicroRNAs (miRNAs) are posttranscriptional regulatory molecules that have been implicated in the regulation of immune responses, but their role in the immune response to Plasmodium infection is unknown. We studied the expression of selected miRNAs following infection of CBA mice with Plasmodium berghei ANKA (PbA), which causes cerebral malaria (CM), or Plasmodium berghei K173 (PbK), which causes severe malaria but without cerebral complications, termed non-CM. The differential expression profiles of selected miRNAs (let-7i, miR-27a, miR-150, miR-126, miR-210, and miR-155) were analyzed in mouse brain and heart tissue by quantitative reverse transcription-PCR (qRT-PCR). We identified three miRNAs that were differentially expressed in the brain of PbA-infected CBA mice: let7i, miR-27a, and miR-150. In contrast, no miRNA changes were detected in the heart, an organ with no known pathology during acute malaria. To investigate the involvement of let-7i, miR-27a, and miR-150 in CM-resistant mice, we assessed the expression levels in gamma interferon knockout (IFN-γ(-/-)) mice on a C57BL/6 genetic background. The expression of let-7i, miR-27a, and miR-150 was unchanged in both wild-type (WT) and IFN-γ(-/-) mice following infection. Overexpression of these three miRNAs during PbA, but not PbK, infection in WT mice may be critical for the triggering of the neurological syndrome via regulation of their potential downstream targets. Our data suggest that in the CBA mouse at least, miRNA may have a regulatory role in the pathogenesis of severe malaria.&#9;&#9;&#9;&#10;"/>
+    <cas:Sofa xmi:id="134" sofaNum="2" sofaID="DocumentView" mimeType="text" sofaString="21422175&#9;Differential MicroRNA Expression in Experimental Cerebral and Noncerebral Malaria.&#9;&#9;MicroRNAs (miRNAs) are posttranscriptional regulatory molecules that have been implicated in the regulation of immune responses, but their role in the immune response to Plasmodium infection is unknown. We studied the expression of selected miRNAs following infection of CBA mice with Plasmodium berghei ANKA (PbA), which causes cerebral malaria (CM), or Plasmodium berghei K173 (PbK), which causes severe malaria but without cerebral complications, termed non-CM. The differential expression profiles of selected miRNAs (let-7i, miR-27a, miR-150, miR-126, miR-210, and miR-155) were analyzed in mouse brain and heart tissue by quantitative reverse transcription-PCR (qRT-PCR). We identified three miRNAs that were differentially expressed in the brain of PbA-infected CBA mice: let7i, miR-27a, and miR-150. In contrast, no miRNA changes were detected in the heart, an organ with no known pathology during acute malaria. To investigate the involvement of let-7i, miR-27a, and miR-150 in CM-resistant mice, we assessed the expression levels in gamma interferon knockout (IFN-γ(-/-)) mice on a C57BL/6 genetic background. The expression of let-7i, miR-27a, and miR-150 was unchanged in both wild-type (WT) and IFN-γ(-/-) mice following infection. Overexpression of these three miRNAs during PbA, but not PbK, infection in WT mice may be critical for the triggering of the neurological syndrome via regulation of their potential downstream targets. Our data suggest that in the CBA mouse at least, miRNA may have a regulatory role in the pathogenesis of severe malaria.&#9;&#9;&#9;&#10;"/>
+    <meta:Person xmi:id="8" surname="adhrangadhariya"/>
+    <meta:Person xmi:id="45" surname="adhrangadhariya"/>
+    <provenance:AgentProvenance xmi:id="13" user="8"/>
+    <provenance:AgentProvenance xmi:id="50" user="45"/>
+    <provenance:ActivityProvenance xmi:id="1" componentId="de.fraunhofer.scai.bio.uima.core.reader.XCasReader" startedAtTime="27" endedAtTime="107" version="6.0" parameters="15 19" wasAssociatedWith="13"/>
+    <provenance:ActivityProvenance xmi:id="52" componentId="de.fraunhofer.scai.bio.MiRNA2XCAS.reader.MiRNA2XCASReader" startedAtTime="100" endedAtTime="93" version="6.0" parameters="64 68 72" wasAssociatedWith="50"/>
+    <provenance:ActivityProvenance xmi:id="118" componentId="de.fraunhofer.scai.bio.uima.mirnadetector.annotator.MiRNADetector" startedAtTime="127" endedAtTime="1610" version="6.0" parameters="" wasAssociatedWith="13"/>
+    <meta:Parameter xmi:id="15" key="inputString" value="data" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="19" key="documentCollectionName" value="NONE_SINCE_XCAS_READER_DOES_NOT_SET_ANY_PROP" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="64" key="Example" value="example" wasGeneratedBy="52"/>
+    <meta:Parameter xmi:id="68" key="inputString" value="train_201" wasGeneratedBy="52"/>
+    <meta:Parameter xmi:id="72" key="documentCollectionName" value="7d789aff-dc58-47b1-ad0e-392ceb43965c" wasGeneratedBy="52"/>
+    <tcas:DocumentAnnotation xmi:id="76" sofa="38" begin="0" end="1663" language="x-unspecified"/>
+    <provenance:EntityProvenance xmi:id="81" documentID="35cf27be01c3251df486d0de8c12d6cecbd4758d9137cfd0e430a0fa44d6815d" userSuppliedID="21422175" wasDerivedFrom="file:/home/adhrangadhariya/miRNA/MiRNA2XCAS_old/train_201/21422175.txt" workflowProvenance="52 1 118" wasGeneratedBy="52" wasAttributedTo="50" documentCollectionName="7d789aff-dc58-47b1-ad0e-392ceb43965c" documentURI="file:/home/adhrangadhariya/miRNA/MiRNADetector/data/21422175.xmi"/>
+    <tcas:DocumentAnnotation xmi:id="141" sofa="134" begin="0" end="1663" language="x-unspecified"/>
+    <text:NamedEntity xmi:id="149" sofa="134" begin="22" end="30" wasGeneratedBy="118" confidence="146"/>
+    <text:NamedEntity xmi:id="185" sofa="134" begin="93" end="102" wasGeneratedBy="118" confidence="182"/>
+    <text:NamedEntity xmi:id="221" sofa="134" begin="104" end="110" wasGeneratedBy="118" confidence="218"/>
+    <text:NamedEntity xmi:id="257" sofa="134" begin="334" end="340" wasGeneratedBy="118" confidence="254"/>
+    <text:NamedEntity xmi:id="293" sofa="134" begin="607" end="613" wasGeneratedBy="118" confidence="290"/>
+    <text:NamedEntity xmi:id="329" sofa="134" begin="791" end="797" wasGeneratedBy="118" confidence="326"/>
+    <text:NamedEntity xmi:id="365" sofa="134" begin="917" end="922" wasGeneratedBy="118" confidence="362"/>
+    <text:NamedEntity xmi:id="401" sofa="134" begin="1368" end="1374" wasGeneratedBy="118" confidence="398"/>
+    <text:NamedEntity xmi:id="437" sofa="134" begin="1588" end="1593" wasGeneratedBy="118" confidence="434"/>
+    <text:NamedEntity xmi:id="473" sofa="134" begin="615" end="621" wasGeneratedBy="118" confidence="470"/>
+    <text:NamedEntity xmi:id="489" sofa="134" begin="872" end="877" wasGeneratedBy="118" confidence="486"/>
+    <text:NamedEntity xmi:id="505" sofa="134" begin="1048" end="1054" wasGeneratedBy="118" confidence="502"/>
+    <text:NamedEntity xmi:id="521" sofa="134" begin="1231" end="1237" wasGeneratedBy="118" confidence="518"/>
+    <text:NamedEntity xmi:id="537" sofa="134" begin="623" end="630" wasGeneratedBy="118" confidence="534"/>
+    <text:NamedEntity xmi:id="553" sofa="134" begin="632" end="639" wasGeneratedBy="118" confidence="550"/>
+    <text:NamedEntity xmi:id="569" sofa="134" begin="641" end="648" wasGeneratedBy="118" confidence="566"/>
+    <text:NamedEntity xmi:id="585" sofa="134" begin="650" end="657" wasGeneratedBy="118" confidence="582"/>
+    <text:NamedEntity xmi:id="601" sofa="134" begin="663" end="670" wasGeneratedBy="118" confidence="598"/>
+    <text:NamedEntity xmi:id="617" sofa="134" begin="879" end="886" wasGeneratedBy="118" confidence="614"/>
+    <text:NamedEntity xmi:id="633" sofa="134" begin="892" end="899" wasGeneratedBy="118" confidence="630"/>
+    <text:NamedEntity xmi:id="649" sofa="134" begin="1056" end="1063" wasGeneratedBy="118" confidence="646"/>
+    <text:NamedEntity xmi:id="665" sofa="134" begin="1069" end="1076" wasGeneratedBy="118" confidence="662"/>
+    <text:NamedEntity xmi:id="681" sofa="134" begin="1239" end="1246" wasGeneratedBy="118" confidence="678"/>
+    <text:NamedEntity xmi:id="697" sofa="134" begin="1252" end="1259" wasGeneratedBy="118" confidence="694"/>
+    <text:RegEx xmi:id="155" sofa="134" begin="22" end="30" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="191" sofa="134" begin="93" end="102" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="227" sofa="134" begin="104" end="110" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="263" sofa="134" begin="334" end="340" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="299" sofa="134" begin="607" end="613" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="335" sofa="134" begin="791" end="797" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="371" sofa="134" begin="917" end="922" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="407" sofa="134" begin="1368" end="1374" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="443" sofa="134" begin="1588" end="1593" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="479" sofa="134" begin="615" end="621" wasGeneratedBy="118" pattern="([hH][sS][aA]\-)?(([lL][iI][nN]([ \-])?[4]+[a-z]?)|([lL][eE][tT]([ \-])?[7]+[a-z]?))"/>
+    <text:RegEx xmi:id="495" sofa="134" begin="872" end="877" wasGeneratedBy="118" pattern="([hH][sS][aA]\-)?(([lL][iI][nN]([ \-])?[4]+[a-z]?)|([lL][eE][tT]([ \-])?[7]+[a-z]?))"/>
+    <text:RegEx xmi:id="511" sofa="134" begin="1048" end="1054" wasGeneratedBy="118" pattern="([hH][sS][aA]\-)?(([lL][iI][nN]([ \-])?[4]+[a-z]?)|([lL][eE][tT]([ \-])?[7]+[a-z]?))"/>
+    <text:RegEx xmi:id="527" sofa="134" begin="1231" end="1237" wasGeneratedBy="118" pattern="([hH][sS][aA]\-)?(([lL][iI][nN]([ \-])?[4]+[a-z]?)|([lL][eE][tT]([ \-])?[7]+[a-z]?))"/>
+    <text:RegEx xmi:id="543" sofa="134" begin="623" end="630" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="559" sofa="134" begin="632" end="639" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="575" sofa="134" begin="641" end="648" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="591" sofa="134" begin="650" end="657" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="607" sofa="134" begin="663" end="670" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="623" sofa="134" begin="879" end="886" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="639" sofa="134" begin="892" end="899" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="655" sofa="134" begin="1056" end="1063" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="671" sofa="134" begin="1069" end="1076" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="687" sofa="134" begin="1239" end="1246" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <text:RegEx xmi:id="703" sofa="134" begin="1252" end="1259" wasGeneratedBy="118" pattern="(([hH][sS][aA]|[cC][eE][lL]|[pP][rR]([eE]|[iI]))([ \-][ \-]*))?(\()?([mM][iI]([cC][rR][oO])?[rR]([nN][aA])?[sS]?)(\))?((|([ \-][ \-]*))\d+[a-z]*([\-][\-]*)?(3p|5p|as|s|[0-9]+)?)(/\d*[a-z]*([ \-][ \-]*)?(3p|5p|as|s|[0-9]+)?)?"/>
+    <meta:Label xmi:id="162" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="198" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="234" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="270" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="306" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="342" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="378" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="414" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="450" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="710" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="730" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="750" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="770" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="790" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="810" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="830" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="850" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="870" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="890" languageTag="EN" value="hsa-mir-126"/>
+    <meta:Label xmi:id="910" languageTag="EN" value="hsa-mir-126"/>
+    <meta:Label xmi:id="930" languageTag="EN" value="hsa-mir-126"/>
+    <meta:Label xmi:id="950" languageTag="EN" value="hsa-mir-210"/>
+    <meta:Label xmi:id="970" languageTag="EN" value="hsa-mir-210"/>
+    <meta:Label xmi:id="990" languageTag="EN" value="hsa-mir-210"/>
+    <meta:Label xmi:id="1010" languageTag="EN" value="hsa-mir-155"/>
+    <meta:Label xmi:id="1030" languageTag="EN" value="hsa-mir-155"/>
+    <meta:Label xmi:id="1050" languageTag="EN" value="hsa-mir-155"/>
+    <meta:Label xmi:id="1070" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="1090" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="1110" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="1130" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="1150" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="1170" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="1190" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="1210" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="1230" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="1250" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="1270" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="1290" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="1310" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="1330" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="1350" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="1370" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="1390" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="1410" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="1430" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="1450" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="1470" languageTag="EN" value="hsa-let-7i"/>
+    <meta:Label xmi:id="1490" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="1510" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="1530" languageTag="EN" value="hsa-mir-27a"/>
+    <meta:Label xmi:id="1550" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="1570" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Label xmi:id="1590" languageTag="EN" value="hsa-mir-150"/>
+    <meta:Concept xmi:id="165" prefLabel="162" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="201" prefLabel="198" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="237" prefLabel="234" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="273" prefLabel="270" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="309" prefLabel="306" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="345" prefLabel="342" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="381" prefLabel="378" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="417" prefLabel="414" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="453" prefLabel="450" identifier="general_mirna" identifierSource="general_mirna"/>
+    <meta:Concept xmi:id="713" prefLabel="710" identifier="MI0000434" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000434"/>
+    <meta:Concept xmi:id="733" prefLabel="730" identifier="MIMAT0000415" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000415"/>
+    <meta:Concept xmi:id="753" prefLabel="750" identifier="MIMAT0004585" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004585"/>
+    <meta:Concept xmi:id="773" prefLabel="770" identifier="MI0000085" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000085"/>
+    <meta:Concept xmi:id="793" prefLabel="790" identifier="MIMAT0004501" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004501"/>
+    <meta:Concept xmi:id="813" prefLabel="810" identifier="MIMAT0000084" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000084"/>
+    <meta:Concept xmi:id="833" prefLabel="830" identifier="MI0000479" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000479"/>
+    <meta:Concept xmi:id="853" prefLabel="850" identifier="MIMAT0000451" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000451"/>
+    <meta:Concept xmi:id="873" prefLabel="870" identifier="MIMAT0004610" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004610"/>
+    <meta:Concept xmi:id="893" prefLabel="890" identifier="MI0000471" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000471"/>
+    <meta:Concept xmi:id="913" prefLabel="910" identifier="MIMAT0000444" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000444"/>
+    <meta:Concept xmi:id="933" prefLabel="930" identifier="MIMAT0000445" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000445"/>
+    <meta:Concept xmi:id="953" prefLabel="950" identifier="MI0000286" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000286"/>
+    <meta:Concept xmi:id="973" prefLabel="970" identifier="MIMAT0000267" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000267"/>
+    <meta:Concept xmi:id="993" prefLabel="990" identifier="MIMAT0026475" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0026475"/>
+    <meta:Concept xmi:id="1013" prefLabel="1010" identifier="MI0000681" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000681"/>
+    <meta:Concept xmi:id="1033" prefLabel="1030" identifier="MIMAT0000646" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000646"/>
+    <meta:Concept xmi:id="1053" prefLabel="1050" identifier="MIMAT0004658" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004658"/>
+    <meta:Concept xmi:id="1073" prefLabel="1070" identifier="MI0000434" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000434"/>
+    <meta:Concept xmi:id="1093" prefLabel="1090" identifier="MIMAT0000415" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000415"/>
+    <meta:Concept xmi:id="1113" prefLabel="1110" identifier="MIMAT0004585" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004585"/>
+    <meta:Concept xmi:id="1133" prefLabel="1130" identifier="MI0000085" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000085"/>
+    <meta:Concept xmi:id="1153" prefLabel="1150" identifier="MIMAT0004501" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004501"/>
+    <meta:Concept xmi:id="1173" prefLabel="1170" identifier="MIMAT0000084" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000084"/>
+    <meta:Concept xmi:id="1193" prefLabel="1190" identifier="MI0000479" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000479"/>
+    <meta:Concept xmi:id="1213" prefLabel="1210" identifier="MIMAT0000451" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000451"/>
+    <meta:Concept xmi:id="1233" prefLabel="1230" identifier="MIMAT0004610" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004610"/>
+    <meta:Concept xmi:id="1253" prefLabel="1250" identifier="MI0000434" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000434"/>
+    <meta:Concept xmi:id="1273" prefLabel="1270" identifier="MIMAT0000415" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000415"/>
+    <meta:Concept xmi:id="1293" prefLabel="1290" identifier="MIMAT0004585" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004585"/>
+    <meta:Concept xmi:id="1313" prefLabel="1310" identifier="MI0000085" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000085"/>
+    <meta:Concept xmi:id="1333" prefLabel="1330" identifier="MIMAT0004501" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004501"/>
+    <meta:Concept xmi:id="1353" prefLabel="1350" identifier="MIMAT0000084" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000084"/>
+    <meta:Concept xmi:id="1373" prefLabel="1370" identifier="MI0000479" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000479"/>
+    <meta:Concept xmi:id="1393" prefLabel="1390" identifier="MIMAT0000451" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000451"/>
+    <meta:Concept xmi:id="1413" prefLabel="1410" identifier="MIMAT0004610" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004610"/>
+    <meta:Concept xmi:id="1433" prefLabel="1430" identifier="MI0000434" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000434"/>
+    <meta:Concept xmi:id="1453" prefLabel="1450" identifier="MIMAT0000415" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000415"/>
+    <meta:Concept xmi:id="1473" prefLabel="1470" identifier="MIMAT0004585" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004585"/>
+    <meta:Concept xmi:id="1493" prefLabel="1490" identifier="MI0000085" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000085"/>
+    <meta:Concept xmi:id="1513" prefLabel="1510" identifier="MIMAT0004501" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004501"/>
+    <meta:Concept xmi:id="1533" prefLabel="1530" identifier="MIMAT0000084" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000084"/>
+    <meta:Concept xmi:id="1553" prefLabel="1550" identifier="MI0000479" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MI0000479"/>
+    <meta:Concept xmi:id="1573" prefLabel="1570" identifier="MIMAT0000451" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0000451"/>
+    <meta:Concept xmi:id="1593" prefLabel="1590" identifier="MIMAT0004610" identifierSource="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=MIMAT0004610"/>
+    <text:NormalizedNamedEntity xmi:id="174" sofa="134" begin="22" end="30" wasGeneratedBy="118" confidence="146" concept="165"/>
+    <text:NormalizedNamedEntity xmi:id="210" sofa="134" begin="93" end="102" wasGeneratedBy="118" confidence="182" concept="201"/>
+    <text:NormalizedNamedEntity xmi:id="246" sofa="134" begin="104" end="110" wasGeneratedBy="118" confidence="218" concept="237"/>
+    <text:NormalizedNamedEntity xmi:id="282" sofa="134" begin="334" end="340" wasGeneratedBy="118" confidence="254" concept="273"/>
+    <text:NormalizedNamedEntity xmi:id="318" sofa="134" begin="607" end="613" wasGeneratedBy="118" confidence="290" concept="309"/>
+    <text:NormalizedNamedEntity xmi:id="354" sofa="134" begin="791" end="797" wasGeneratedBy="118" confidence="326" concept="345"/>
+    <text:NormalizedNamedEntity xmi:id="390" sofa="134" begin="917" end="922" wasGeneratedBy="118" confidence="362" concept="381"/>
+    <text:NormalizedNamedEntity xmi:id="426" sofa="134" begin="1368" end="1374" wasGeneratedBy="118" confidence="398" concept="417"/>
+    <text:NormalizedNamedEntity xmi:id="462" sofa="134" begin="1588" end="1593" wasGeneratedBy="118" confidence="434" concept="453"/>
+    <text:NormalizedNamedEntity xmi:id="719" sofa="134" begin="615" end="621" wasGeneratedBy="118" confidence="727" concept="713"/>
+    <text:NormalizedNamedEntity xmi:id="739" sofa="134" begin="615" end="621" wasGeneratedBy="118" confidence="747" concept="733"/>
+    <text:NormalizedNamedEntity xmi:id="759" sofa="134" begin="615" end="621" wasGeneratedBy="118" confidence="767" concept="753"/>
+    <text:NormalizedNamedEntity xmi:id="779" sofa="134" begin="623" end="630" wasGeneratedBy="118" confidence="787" concept="773"/>
+    <text:NormalizedNamedEntity xmi:id="799" sofa="134" begin="623" end="630" wasGeneratedBy="118" confidence="807" concept="793"/>
+    <text:NormalizedNamedEntity xmi:id="819" sofa="134" begin="623" end="630" wasGeneratedBy="118" confidence="827" concept="813"/>
+    <text:NormalizedNamedEntity xmi:id="839" sofa="134" begin="632" end="639" wasGeneratedBy="118" confidence="847" concept="833"/>
+    <text:NormalizedNamedEntity xmi:id="859" sofa="134" begin="632" end="639" wasGeneratedBy="118" confidence="867" concept="853"/>
+    <text:NormalizedNamedEntity xmi:id="879" sofa="134" begin="632" end="639" wasGeneratedBy="118" confidence="887" concept="873"/>
+    <text:NormalizedNamedEntity xmi:id="899" sofa="134" begin="641" end="648" wasGeneratedBy="118" confidence="907" concept="893"/>
+    <text:NormalizedNamedEntity xmi:id="919" sofa="134" begin="641" end="648" wasGeneratedBy="118" confidence="927" concept="913"/>
+    <text:NormalizedNamedEntity xmi:id="939" sofa="134" begin="641" end="648" wasGeneratedBy="118" confidence="947" concept="933"/>
+    <text:NormalizedNamedEntity xmi:id="959" sofa="134" begin="650" end="657" wasGeneratedBy="118" confidence="967" concept="953"/>
+    <text:NormalizedNamedEntity xmi:id="979" sofa="134" begin="650" end="657" wasGeneratedBy="118" confidence="987" concept="973"/>
+    <text:NormalizedNamedEntity xmi:id="999" sofa="134" begin="650" end="657" wasGeneratedBy="118" confidence="1007" concept="993"/>
+    <text:NormalizedNamedEntity xmi:id="1019" sofa="134" begin="663" end="670" wasGeneratedBy="118" confidence="1027" concept="1013"/>
+    <text:NormalizedNamedEntity xmi:id="1039" sofa="134" begin="663" end="670" wasGeneratedBy="118" confidence="1047" concept="1033"/>
+    <text:NormalizedNamedEntity xmi:id="1059" sofa="134" begin="663" end="670" wasGeneratedBy="118" confidence="1067" concept="1053"/>
+    <text:NormalizedNamedEntity xmi:id="1079" sofa="134" begin="872" end="877" wasGeneratedBy="118" confidence="1087" concept="1073"/>
+    <text:NormalizedNamedEntity xmi:id="1099" sofa="134" begin="872" end="877" wasGeneratedBy="118" confidence="1107" concept="1093"/>
+    <text:NormalizedNamedEntity xmi:id="1119" sofa="134" begin="872" end="877" wasGeneratedBy="118" confidence="1127" concept="1113"/>
+    <text:NormalizedNamedEntity xmi:id="1139" sofa="134" begin="879" end="886" wasGeneratedBy="118" confidence="1147" concept="1133"/>
+    <text:NormalizedNamedEntity xmi:id="1159" sofa="134" begin="879" end="886" wasGeneratedBy="118" confidence="1167" concept="1153"/>
+    <text:NormalizedNamedEntity xmi:id="1179" sofa="134" begin="879" end="886" wasGeneratedBy="118" confidence="1187" concept="1173"/>
+    <text:NormalizedNamedEntity xmi:id="1199" sofa="134" begin="892" end="899" wasGeneratedBy="118" confidence="1207" concept="1193"/>
+    <text:NormalizedNamedEntity xmi:id="1219" sofa="134" begin="892" end="899" wasGeneratedBy="118" confidence="1227" concept="1213"/>
+    <text:NormalizedNamedEntity xmi:id="1239" sofa="134" begin="892" end="899" wasGeneratedBy="118" confidence="1247" concept="1233"/>
+    <text:NormalizedNamedEntity xmi:id="1259" sofa="134" begin="1048" end="1054" wasGeneratedBy="118" confidence="1267" concept="1253"/>
+    <text:NormalizedNamedEntity xmi:id="1279" sofa="134" begin="1048" end="1054" wasGeneratedBy="118" confidence="1287" concept="1273"/>
+    <text:NormalizedNamedEntity xmi:id="1299" sofa="134" begin="1048" end="1054" wasGeneratedBy="118" confidence="1307" concept="1293"/>
+    <text:NormalizedNamedEntity xmi:id="1319" sofa="134" begin="1056" end="1063" wasGeneratedBy="118" confidence="1327" concept="1313"/>
+    <text:NormalizedNamedEntity xmi:id="1339" sofa="134" begin="1056" end="1063" wasGeneratedBy="118" confidence="1347" concept="1333"/>
+    <text:NormalizedNamedEntity xmi:id="1359" sofa="134" begin="1056" end="1063" wasGeneratedBy="118" confidence="1367" concept="1353"/>
+    <text:NormalizedNamedEntity xmi:id="1379" sofa="134" begin="1069" end="1076" wasGeneratedBy="118" confidence="1387" concept="1373"/>
+    <text:NormalizedNamedEntity xmi:id="1399" sofa="134" begin="1069" end="1076" wasGeneratedBy="118" confidence="1407" concept="1393"/>
+    <text:NormalizedNamedEntity xmi:id="1419" sofa="134" begin="1069" end="1076" wasGeneratedBy="118" confidence="1427" concept="1413"/>
+    <text:NormalizedNamedEntity xmi:id="1439" sofa="134" begin="1231" end="1237" wasGeneratedBy="118" confidence="1447" concept="1433"/>
+    <text:NormalizedNamedEntity xmi:id="1459" sofa="134" begin="1231" end="1237" wasGeneratedBy="118" confidence="1467" concept="1453"/>
+    <text:NormalizedNamedEntity xmi:id="1479" sofa="134" begin="1231" end="1237" wasGeneratedBy="118" confidence="1487" concept="1473"/>
+    <text:NormalizedNamedEntity xmi:id="1499" sofa="134" begin="1239" end="1246" wasGeneratedBy="118" confidence="1507" concept="1493"/>
+    <text:NormalizedNamedEntity xmi:id="1519" sofa="134" begin="1239" end="1246" wasGeneratedBy="118" confidence="1527" concept="1513"/>
+    <text:NormalizedNamedEntity xmi:id="1539" sofa="134" begin="1239" end="1246" wasGeneratedBy="118" confidence="1547" concept="1533"/>
+    <text:NormalizedNamedEntity xmi:id="1559" sofa="134" begin="1252" end="1259" wasGeneratedBy="118" confidence="1567" concept="1553"/>
+    <text:NormalizedNamedEntity xmi:id="1579" sofa="134" begin="1252" end="1259" wasGeneratedBy="118" confidence="1587" concept="1573"/>
+    <text:NormalizedNamedEntity xmi:id="1599" sofa="134" begin="1252" end="1259" wasGeneratedBy="118" confidence="1607" concept="1593"/>
+    <meta:Confidence xmi:id="1607" Value="0.99"/>
+    <meta:Confidence xmi:id="1587" Value="0.99"/>
+    <meta:Confidence xmi:id="1567" Value="0.99"/>
+    <meta:Confidence xmi:id="1547" Value="0.99"/>
+    <meta:Confidence xmi:id="1527" Value="0.99"/>
+    <meta:Confidence xmi:id="1507" Value="0.99"/>
+    <meta:Confidence xmi:id="1487" Value="0.99"/>
+    <meta:Confidence xmi:id="1467" Value="0.99"/>
+    <meta:Confidence xmi:id="1447" Value="0.99"/>
+    <meta:Confidence xmi:id="1427" Value="0.99"/>
+    <meta:Confidence xmi:id="1407" Value="0.99"/>
+    <meta:Confidence xmi:id="1387" Value="0.99"/>
+    <meta:Confidence xmi:id="1367" Value="0.99"/>
+    <meta:Confidence xmi:id="1347" Value="0.99"/>
+    <meta:Confidence xmi:id="1327" Value="0.99"/>
+    <meta:Confidence xmi:id="1307" Value="0.99"/>
+    <meta:Confidence xmi:id="1287" Value="0.99"/>
+    <meta:Confidence xmi:id="1267" Value="0.99"/>
+    <meta:Confidence xmi:id="1247" Value="0.99"/>
+    <meta:Confidence xmi:id="1227" Value="0.99"/>
+    <meta:Confidence xmi:id="1207" Value="0.99"/>
+    <meta:Confidence xmi:id="1187" Value="0.99"/>
+    <meta:Confidence xmi:id="1167" Value="0.99"/>
+    <meta:Confidence xmi:id="1147" Value="0.99"/>
+    <meta:Confidence xmi:id="1127" Value="0.99"/>
+    <meta:Confidence xmi:id="1107" Value="0.99"/>
+    <meta:Confidence xmi:id="1087" Value="0.99"/>
+    <meta:Confidence xmi:id="1067" Value="0.99"/>
+    <meta:Confidence xmi:id="1047" Value="0.99"/>
+    <meta:Confidence xmi:id="1027" Value="0.99"/>
+    <meta:Confidence xmi:id="1007" Value="0.99"/>
+    <meta:Confidence xmi:id="987" Value="0.99"/>
+    <meta:Confidence xmi:id="967" Value="0.99"/>
+    <meta:Confidence xmi:id="947" Value="0.99"/>
+    <meta:Confidence xmi:id="927" Value="0.99"/>
+    <meta:Confidence xmi:id="907" Value="0.99"/>
+    <meta:Confidence xmi:id="887" Value="0.99"/>
+    <meta:Confidence xmi:id="867" Value="0.99"/>
+    <meta:Confidence xmi:id="847" Value="0.99"/>
+    <meta:Confidence xmi:id="827" Value="0.99"/>
+    <meta:Confidence xmi:id="807" Value="0.99"/>
+    <meta:Confidence xmi:id="787" Value="0.99"/>
+    <meta:Confidence xmi:id="767" Value="0.99"/>
+    <meta:Confidence xmi:id="747" Value="0.99"/>
+    <meta:Confidence xmi:id="727" Value="0.99"/>
+    <meta:Confidence xmi:id="694" Value="1.0"/>
+    <meta:Confidence xmi:id="678" Value="1.0"/>
+    <meta:Confidence xmi:id="662" Value="1.0"/>
+    <meta:Confidence xmi:id="646" Value="1.0"/>
+    <meta:Confidence xmi:id="630" Value="1.0"/>
+    <meta:Confidence xmi:id="614" Value="1.0"/>
+    <meta:Confidence xmi:id="598" Value="1.0"/>
+    <meta:Confidence xmi:id="582" Value="1.0"/>
+    <meta:Confidence xmi:id="566" Value="1.0"/>
+    <meta:Confidence xmi:id="550" Value="1.0"/>
+    <meta:Confidence xmi:id="534" Value="1.0"/>
+    <meta:Confidence xmi:id="518" Value="1.0"/>
+    <meta:Confidence xmi:id="502" Value="1.0"/>
+    <meta:Confidence xmi:id="486" Value="1.0"/>
+    <meta:Confidence xmi:id="470" Value="1.0"/>
+    <meta:Confidence xmi:id="434" Value="1.0"/>
+    <meta:Confidence xmi:id="398" Value="1.0"/>
+    <meta:Confidence xmi:id="362" Value="1.0"/>
+    <meta:Confidence xmi:id="326" Value="1.0"/>
+    <meta:Confidence xmi:id="290" Value="1.0"/>
+    <meta:Confidence xmi:id="254" Value="1.0"/>
+    <meta:Confidence xmi:id="218" Value="1.0"/>
+    <meta:Confidence xmi:id="182" Value="1.0"/>
+    <meta:Confidence xmi:id="146" Value="1.0"/>
+    <meta:DateTime xmi:id="1610" day="8" month="6" year="2015" hour="15" minute="16" second="48"/>
+    <meta:DateTime xmi:id="127" day="8" month="6" year="2015" hour="15" minute="16" second="48"/>
+    <meta:DateTime xmi:id="93" day="15" month="5" year="2015" hour="10" minute="34" second="20"/>
+    <meta:DateTime xmi:id="100" day="15" month="5" year="2015" hour="10" minute="34" second="20"/>
+    <meta:DateTime xmi:id="107" day="8" month="6" year="2015" hour="15" minute="16" second="48"/>
+    <meta:DateTime xmi:id="27" day="8" month="6" year="2015" hour="15" minute="16" second="48"/>
+    <cas:View sofa="38" members="8 45 13 50 1 52 118 15 19 64 68 72 76 81"/>
+    <cas:View sofa="134" members="141 149 185 221 257 293 329 365 401 437 473 489 505 521 537 553 569 585 601 617 633 649 665 681 697 155 191 227 263 299 335 371 407 443 479 495 511 527 543 559 575 591 607 623 639 655 671 687 703 162 198 234 270 306 342 378 414 450 710 730 750 770 790 810 830 850 870 890 910 930 950 970 990 1010 1030 1050 1070 1090 1110 1130 1150 1170 1190 1210 1230 1250 1270 1290 1310 1330 1350 1370 1390 1410 1430 1450 1470 1490 1510 1530 1550 1570 1590 165 201 237 273 309 345 381 417 453 713 733 753 773 793 813 833 853 873 893 913 933 953 973 993 1013 1033 1053 1073 1093 1113 1133 1153 1173 1193 1213 1233 1253 1273 1293 1313 1333 1353 1373 1393 1413 1433 1453 1473 1493 1513 1533 1553 1573 1593 174 210 246 282 318 354 390 426 462 719 739 759 779 799 819 839 859 879 899 919 939 959 979 999 1019 1039 1059 1079 1099 1119 1139 1159 1179 1199 1219 1239 1259 1279 1299 1319 1339 1359 1379 1399 1419 1439 1459 1479 1499 1519 1539 1559 1579 1599"/>
+</xmi:XMI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:provenance="http:///de/fraunhofer/scai/bio/extraction/types/meta/provenance.ecore" xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:meta2="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/meta.ecore" xmlns:meta="http:///de/fraunhofer/scai/bio/extraction/types/meta.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:container="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/container.ecore" xmlns:text="http:///de/fraunhofer/scai/bio/extraction/types/text.ecore" xmlns:structure="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement/structure.ecore" xmlns:image="http:///de/fraunhofer/scai/bio/extraction/types/image.ecore" xmlns:documentelement="http:///de/fraunhofer/scai/bio/extraction/types/text/documentelement.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <cas:Sofa xmi:id="38" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="19498445&#9;miR-15a and miR-16-1 in cancer: discovery, function and future perspectives.&#9;&#9;MicroRNAs (miRNAs) encoded by the miR-15/16 cluster are known to act as tumor suppressors. Expression of these miRNAs inhibits cell proliferation, promotes apoptosis of cancer cells, and suppresses tumorigenicity both in vitro and in vivo. miR-15a and miR-16-1 function by targeting multiple oncogenes, including BCL2, MCL1, CCND1, and WNT3A. Down-regulation of these miRNAs has been reported in chronic lymphocytic lymphoma (CLL), pituitary adenomas, and prostate carcinoma. This review summarizes the discovery, functions, and clinical relevance of these miRNAs in cancer, particularly CLL.&#9;&#9;&#9;&#10;"/>
+    <cas:Sofa xmi:id="134" sofaNum="2" sofaID="DocumentView" mimeType="text" sofaString="19498445&#9;miR-15a and miR-16-1 in cancer: discovery, function and future perspectives.&#9;&#9;MicroRNAs (miRNAs) encoded by the miR-15/16 cluster are known to act as tumor suppressors. Expression of these miRNAs inhibits cell proliferation, promotes apoptosis of cancer cells, and suppresses tumorigenicity both in vitro and in vivo. miR-15a and miR-16-1 function by targeting multiple oncogenes, including BCL2, MCL1, CCND1, and WNT3A. Down-regulation of these miRNAs has been reported in chronic lymphocytic lymphoma (CLL), pituitary adenomas, and prostate carcinoma. This review summarizes the discovery, functions, and clinical relevance of these miRNAs in cancer, particularly CLL.&#9;&#9;&#9;&#10;"/>
+    <meta:Person xmi:id="8" surname="adhrangadhariya"/>
+    <meta:Person xmi:id="45" surname="adhrangadhariya"/>
+    <provenance:AgentProvenance xmi:id="13" user="8"/>
+    <provenance:AgentProvenance xmi:id="50" user="45"/>
+    <provenance:ActivityProvenance xmi:id="1" componentId="de.fraunhofer.scai.bio.uima.core.reader.XCasReader" startedAtTime="27" endedAtTime="107" version="6.0" parameters="15 19" wasAssociatedWith="13"/>
+    <provenance:ActivityProvenance xmi:id="52" componentId="de.fraunhofer.scai.bio.MiRNA2XCAS.reader.MiRNA2XCASReader" startedAtTime="100" endedAtTime="93" version="6.0" parameters="64 68 72" wasAssociatedWith="50"/>
+    <provenance:ActivityProvenance xmi:id="118" componentId="de.fraunhofer.scai.bio.uima.mirnadetector.annotator.MiRNADetector" startedAtTime="127" endedAtTime="406" version="6.0" parameters="" wasAssociatedWith="13"/>
+    <meta:Parameter xmi:id="15" key="inputString" value="data" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="19" key="documentCollectionName" value="NONE_SINCE_XCAS_READER_DOES_NOT_SET_ANY_PROP" wasGeneratedBy="1"/>
+    <meta:Parameter xmi:id="64" key="Example" value="example" wasGeneratedBy="52"/>
+    <meta:Parameter xmi:id="68" key="inputString" value="train_201" wasGeneratedBy="52"/>
+    <meta:Parameter xmi:id="72" key="documentCollectionName" value="7d789aff-dc58-47b1-ad0e-392ceb43965c" wasGeneratedBy="52"/>
+    <tcas:DocumentAnnotation xmi:id="76" sofa="38" begin="0" end="683" language="x-unspecified"/>
+    <provenance:EntityProvenance xmi:id="81" documentID="4b3f4925663efab0f5f10bdf0d9b3e24d8cf9a64b7b24b9d08d6b7edd139aa9d" userSuppliedID="19498445" wasDerivedFrom="file:/home/adhrangadhariya/miRNA/MiRNA2XCAS_old/train_201/19498445.txt" workflowProvenance="52 1 118" wasGeneratedBy="52" wasAttributedTo="50" documentCollectionName="7d789aff-dc58-47b1-ad0e-392ceb43965c" documentURI="file:/home/adhrangadhariya/miRNA/MiRNADetector/data/19498445.xmi"/>
+    <tcas:DocumentAnnotation xmi:id="141" sofa="134" begin="0" end="683" language="x-unspecified"/>
+    <text:NamedEntity xmi:id="149" sofa="134" begin="87" end="96" wasGeneratedBy="118" confidence="146"/>
+    <text:NamedEntity xmi:id="185" sofa="134" begin="98" end="104" wasGeneratedBy="118" confidence="182"/>
+    <text:NamedEntity xmi:id="221" sofa="134" begin="198" end="204" wasGeneratedBy="118" confidence="218"/>
+    <text:NamedEntity xmi:id="257" sofa="134" begin="455" end="461" wasGeneratedBy="118" confidence="254"/>
+    <text:NamedEntity xmi:id="293" sofa="134" begin="644" end="650" wasGeneratedBy="118" confidence="290"/>
+    <text:NamedEntity xmi:id="329" sofa="134" begin="9" end="17" wasGeneratedBy="118" confidence="326"/>
+    <text:NamedEntity xmi:id="345" sofa="134" begin="21" end="28" wasGeneratedBy="118" confidence="342"/>
+    <text:NamedEntity xmi:id="361" sofa="134" begin="121" end="131" wasGeneratedBy="118" confidence="358"/>
+    <text:NamedEntity xmi:id="377" sofa="134" begin="327" end="335" wasGeneratedBy="118" confidence="374"/>
+    <text:NamedEntity xmi:id="393" sofa="134" begin="339" end="346" wasGeneratedBy="118" confidence="390"/>
+    <text:RegEx xmi:id="155" sofa="134" begin="87" end="96" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="191" sofa="134" begin="98" end="104" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="227" sofa="134" begin="198" end="204" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="263" sofa="134" begin="455" end="461" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="299" sofa="134" begin="644" end="650" wasGeneratedBy="118" pattern="(([pP][rR]([iI]|[eE])([ \-][ \-]*))|([hH][sS][aA]([ \-][ \-]*)|[cC][eE][lL]([ \-][ \-]*)))?(([mM][iI]([cC][rR][oO])?)([ \-][ \-]*)?([rR][nN][aA][sS]?))"/>
+    <text:RegEx xmi:id="335" sofa="134" begin="9" end="17" wasGeneratedBy="118" pattern="((([hH][sS][aA]\-)|([pP][rR]([eE]|[iI])\-)|([cC][eE][lL]\-))?([oO][nN][cC][oO][mM][iI][rR]|(\()?[mM][iI](cro|CRO)?[rR]([nN][aA])?(\))?)(([ \-])([ \-])*)?([0-9]{1,3}(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9]?)?(/(([0-9]{1,3})?(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9])?)*)"/>
+    <text:RegEx xmi:id="351" sofa="134" begin="21" end="28" wasGeneratedBy="118" pattern="((([hH][sS][aA]\-)|([pP][rR]([eE]|[iI])\-)|([cC][eE][lL]\-))?([oO][nN][cC][oO][mM][iI][rR]|(\()?[mM][iI](cro|CRO)?[rR]([nN][aA])?(\))?)(([ \-])([ \-])*)?([0-9]{1,3}(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9]?)?(/(([0-9]{1,3})?(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9])?)*)"/>
+    <text:RegEx xmi:id="367" sofa="134" begin="121" end="131" wasGeneratedBy="118" pattern="((([hH][sS][aA]\-)|([pP][rR]([eE]|[iI])\-)|([cC][eE][lL]\-))?([oO][nN][cC][oO][mM][iI][rR]|(\()?[mM][iI](cro|CRO)?[rR]([nN][aA])?(\))?)(([ \-])([ \-])*)?([0-9]{1,3}(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9]?)?(/(([0-9]{1,3})?(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9])?)*)"/>
+    <text:RegEx xmi:id="383" sofa="134" begin="327" end="335" wasGeneratedBy="118" pattern="((([hH][sS][aA]\-)|([pP][rR]([eE]|[iI])\-)|([cC][eE][lL]\-))?([oO][nN][cC][oO][mM][iI][rR]|(\()?[mM][iI](cro|CRO)?[rR]([nN][aA])?(\))?)(([ \-])([ \-])*)?([0-9]{1,3}(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9]?)?(/(([0-9]{1,3})?(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9])?)*)"/>
+    <text:RegEx xmi:id="399" sofa="134" begin="339" end="346" wasGeneratedBy="118" pattern="((([hH][sS][aA]\-)|([pP][rR]([eE]|[iI])\-)|([cC][eE][lL]\-))?([oO][nN][cC][oO][mM][iI][rR]|(\()?[mM][iI](cro|CRO)?[rR]([nN][aA])?(\))?)(([ \-])([ \-])*)?([0-9]{1,3}(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9]?)?(/(([0-9]{1,3})?(\-)?[a-c]?)(([ \-])([ \-])*)?((3p|5p)?|[0-9])?)*)"/>
+    <meta:Label xmi:id="162" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="198" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="234" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="270" languageTag="EN" value="microRNA"/>
+    <meta:Label xmi:id="306" languageTag="EN" value="microRNA"/>
+    <meta:Concept xmi:id="165" prefLabel="162" identifier="General miRNA" identifierSource="General miRNA"/>
+    <meta:Concept xmi:id="201" prefLabel="198" identifier="General miRNA" identifierSource="General miRNA"/>
+    <meta:Concept xmi:id="237" prefLabel="234" identifier="General miRNA" identifierSource="General miRNA"/>
+    <meta:Concept xmi:id="273" prefLabel="270" identifier="General miRNA" identifierSource="General miRNA"/>
+    <meta:Concept xmi:id="309" prefLabel="306" identifier="General miRNA" identifierSource="General miRNA"/>
+    <text:NormalizedNamedEntity xmi:id="174" sofa="134" begin="87" end="96" wasGeneratedBy="118" confidence="146" concept="165"/>
+    <text:NormalizedNamedEntity xmi:id="210" sofa="134" begin="98" end="104" wasGeneratedBy="118" confidence="182" concept="201"/>
+    <text:NormalizedNamedEntity xmi:id="246" sofa="134" begin="198" end="204" wasGeneratedBy="118" confidence="218" concept="237"/>
+    <text:NormalizedNamedEntity xmi:id="282" sofa="134" begin="455" end="461" wasGeneratedBy="118" confidence="254" concept="273"/>
+    <text:NormalizedNamedEntity xmi:id="318" sofa="134" begin="644" end="650" wasGeneratedBy="118" confidence="290" concept="309"/>
+    <meta:Confidence xmi:id="390" Value="1.0"/>
+    <meta:Confidence xmi:id="374" Value="1.0"/>
+    <meta:Confidence xmi:id="358" Value="1.0"/>
+    <meta:Confidence xmi:id="342" Value="1.0"/>
+    <meta:Confidence xmi:id="326" Value="1.0"/>
+    <meta:Confidence xmi:id="290" Value="1.0"/>
+    <meta:Confidence xmi:id="254" Value="1.0"/>
+    <meta:Confidence xmi:id="218" Value="1.0"/>
+    <meta:Confidence xmi:id="182" Value="1.0"/>
+    <meta:Confidence xmi:id="146" Value="1.0"/>
+    <meta:DateTime xmi:id="406" day="2" month="6" year="2015" hour="9" minute="24" second="58"/>
+    <meta:DateTime xmi:id="127" day="2" month="6" year="2015" hour="9" minute="24" second="58"/>
+    <meta:DateTime xmi:id="93" day="15" month="5" year="2015" hour="10" minute="34" second="23"/>
+    <meta:DateTime xmi:id="100" day="15" month="5" year="2015" hour="10" minute="34" second="23"/>
+    <meta:DateTime xmi:id="107" day="2" month="6" year="2015" hour="9" minute="24" second="57"/>
+    <meta:DateTime xmi:id="27" day="2" month="6" year="2015" hour="9" minute="24" second="57"/>
+    <cas:View sofa="38" members="8 45 13 50 1 52 118 15 19 64 68 72 76 81"/>
+    <cas:View sofa="134" members="141 149 185 221 257 293 329 345 361 377 393 155 191 227 263 299 335 351 367 383 399 162 198 234 270 306 165 201 237 273 309 174 210 246 282 318"/>
+</xmi:XMI>
