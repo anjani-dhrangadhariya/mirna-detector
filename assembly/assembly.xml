@@ -1,0 +1,27 @@
+<assembly>
+	<formats>
+		<format>tar.gz</format>
+	</formats>
+
+	<fileSets>
+		<fileSet>
+			<directory>target</directory>
+			<outputDirectory>/bin</outputDirectory>
+			<includes>
+				<include>${project.build.finalName}.jar</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>etc</directory>
+			<outputDirectory>/etc</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>doc</directory>
+			<outputDirectory>/doc</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>target/gridbean</directory>
+			<outputDirectory>/gridbean</outputDirectory>
+		</fileSet>
+	</fileSets>
+</assembly>
