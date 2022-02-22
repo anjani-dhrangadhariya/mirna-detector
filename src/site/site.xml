@@ -1,0 +1,18 @@
+<project name="${project.name}">
+    <bannerLeft>
+        <name>Fraunhofer Institute SCAI</name>
+        <src>images/scai_43mm_p334.png</src>
+        <href>http://www.scai.fraunhofer.de/geschaeftsfelder/bioinformatik.html</href>
+    </bannerLeft>
+    <bannerRight>
+        <name>UIMA</name>
+        <src>images/UIMA_banner2tlpTm.png</src>
+        <href>https://uima.apache.org/</href>
+    </bannerRight>
+    <body>
+        <menu name="${project.name}">
+            <item name="About" href="index.html"/>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
